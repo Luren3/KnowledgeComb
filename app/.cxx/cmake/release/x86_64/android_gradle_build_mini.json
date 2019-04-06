@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/huangwei/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/src/main/cpp/CMakeLists.txt",
+    "/Users/huangwei/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+    }
+  }
+}

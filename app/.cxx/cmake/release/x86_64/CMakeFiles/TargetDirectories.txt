@@ -1,0 +1,3 @@
+/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64/CMakeFiles/native-lib.dir

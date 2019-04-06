@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/huangwei/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huangwei/Library/Android/sdk/ndk-bundle/sysroot -Dnative_lib_EXPORTS -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/huangwei/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/src/main/cpp/CMakeLists.txt",
+    "/Users/huangwei/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86_64": {
+      "buildCommand": "/Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/release/x86_64\" native-lib",
+      "buildType": "release",
+      "toolchain": "248362553",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "248362553": {
+      "cppCompilerExecutable": "/Users/huangwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

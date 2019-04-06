@@ -1,0 +1,7 @@
+Executable : /Users/huangwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/.cxx/cmake/debug/armeabi-v7a
+native-lib
+jvmArgs : 
+
