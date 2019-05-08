@@ -60,8 +60,7 @@ ident51 = /Users/huangwei/文件/开发语言/Android/program/custome/自己GitH
 build CMakeFiles/native-lib.dir/native-lib.cpp.o: CXX_COMPILER__native-lib $ident51 || cmake_object_order_depends_target_native-lib
   DEFINES = -Dnative_lib_EXPORTS
   DEP_FILE = CMakeFiles/native-lib.dir/native-lib.cpp.o.d
-  FLAGS = -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC
-  INCLUDES = -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC
   OBJECT_DIR = CMakeFiles/native-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/native-lib.dir
 
@@ -73,10 +72,10 @@ build CMakeFiles/native-lib.dir/native-lib.cpp.o: CXX_COMPILER__native-lib $iden
 # Link the shared library /Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so
 
 ident52 = /Users/huangwei/文件/开发语言/Android/program/custome/自己GitHub项目/KnowledgeComb/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so
-build $ident52: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/native-lib.cpp.o | /Users/huangwei/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib64/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -isystem /Users/huangwei/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/huangwei/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = -llog -latomic -lm "/Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++_static.a" "/Users/huangwei/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++abi.a"
+build $ident52: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/native-lib.cpp.o | /Users/huangwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now
+  LINK_LIBRARIES = -llog -latomic -lm
   OBJECT_DIR = CMakeFiles/native-lib.dir
   POST_BUILD = :
   PRE_LINK = :

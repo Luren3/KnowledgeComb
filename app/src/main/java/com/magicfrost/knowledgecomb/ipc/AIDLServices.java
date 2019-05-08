@@ -16,6 +16,8 @@ public class AIDLServices extends Service {
     private CopyOnWriteArrayList<Book> list = new CopyOnWriteArrayList<>();
 
     private RemoteCallbackList<INewBookAddListener> listeners = new RemoteCallbackList<>();
+
+
     @Override
     public IBinder onBind(Intent intent) {
         return mBinder;

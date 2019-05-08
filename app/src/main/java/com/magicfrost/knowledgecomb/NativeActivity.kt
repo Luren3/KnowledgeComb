@@ -1,6 +1,7 @@
 package com.magicfrost.knowledgecomb
 
 import android.os.Bundle
+import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_native.*
 
@@ -26,5 +27,9 @@ class NativeActivity : AppCompatActivity() {
         init {
             System.loadLibrary("native-lib")
         }
+    }
+
+    override fun onTouchEvent(event: MotionEvent?): Boolean {
+        return super.onTouchEvent(event)
     }
 }
